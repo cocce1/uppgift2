@@ -27,17 +27,5 @@ public class Controller {
     public String loggin(){
         return "Login Successful";
     }
-    /*public Map<String, Object> user(
-            @AuthenticationPrincipal OAuth2User principal,
-            Authentication auth
-    ) {
-        var oauthToken = (OAuth2AuthenticationToken) auth;
-        var client =
-                oauthService.loadAuthorizedClient(
-                        oauthToken.getAuthorizedClientRegistrationId(),
-                        oauthToken.getName());
-
-        System.out.println(client.getAccessToken().getTokenValue());
-        return principal.getAttributes();
-    }*/
+  
 }
